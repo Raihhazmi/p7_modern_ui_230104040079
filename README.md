@@ -74,9 +74,6 @@ AppTopBar
 ## 📂 Struktur Proyek
 ```
   id.antasari.p7_modern_ui_230104040079
-├── data/
-│   ├── model/                # Data classes (Habit, Stats, User)
-│   └── repository/           # Simulasi database / state
 │
 ├── ui/
 │   ├── components/           # Reusable composables
@@ -97,7 +94,6 @@ AppTopBar
 │       ├── Theme.kt
 │       └── Type.kt
 │
-├── utils/                    # Helpers (Date formatter, validators)
 │
 └── MainActivity.kt           # Entry point + Navigation graph
 ```
