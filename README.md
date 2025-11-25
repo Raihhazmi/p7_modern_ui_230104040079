@@ -104,31 +104,45 @@ AppTopBar
 ------------------------------------------------------------------------
 ## 📸 Screenshots (UI Preview)
 
-| Login Screen | Home Screen |
-|-------------|-------------|
-| <img src="screenshots/login.png" width="250" /> | <img src="screenshots/home.png" width="250" /> |
-| *UI Login Material 3* | *Dashboard dengan Calendar Strip* |
+| Login Screen | Home Screen | Profile Screen |
+|-------------|-------------| -------------|
+| <img src="https://github.com/Raihhazmi/p7_modern_ui_230104040079/blob/master/Screenshots/Login_Screen.png" width="250" /> | <img src="https://github.com/Raihhazmi/p7_modern_ui_230104040079/blob/master/Screenshots/Home_Screen.png" width="250" /> | <img src="https://github.com/Raihhazmi/p7_modern_ui_230104040079/blob/master/Screenshots/Profile_Screen.png" width="250" /> |
+| Settings | Home Screen Dark Mode  | Profile Screen Dark Mode  |
+| <img src="https://github.com/Raihhazmi/p7_modern_ui_230104040079/blob/master/Screenshots/Setting_Screen.png" width="250" /> | <img src="https://github.com/Raihhazmi/p7_modern_ui_230104040079/blob/master/Screenshots/Home_Screen_DarkMode.png" width="250" /> | <img src="https://github.com/Raihhazmi/p7_modern_ui_230104040079/blob/master/Screenshots/Proflie_Screen_DarkMode.png" width="250" /> | 
+|    |  Setting Screen Dark Mode  |    |
+|  | <img src="https://github.com/Raihhazmi/p7_modern_ui_230104040079/blob/master/Screenshots/Setting_Screen_DarkMode.png" width="250" /> |  | 
 
-| Profile Screen | Settings (Dark Mode) |
-|----------------|----------------------|
-| <img src="screenshots/profile.png" width="250" /> | <img src="screenshots/dark_mode.png" width="250" /> |
-| *Photo Picker + Gamification* | *Tema Gelap Material You* |
 
 -----
 
 ## 🚀 Cara Menjalankan Proyek
 
 ### 1. Clone Repository
+```bash
+git clone https://github.com/username-anda/HabitConnect.git
+```
+2. Buka di Android Studio
+Pastikan menggunakan Android Studio Ladybug / Koala atau versi yang lebih baru.
 
-    git clone https://github.com/username-anda/HabitConnect.git
+3. Tunggu Gradle Sync
+Biarkan Android Studio melakukan sinkronisasi dependensi secara otomatis.
 
-### 2. Buka di Android Studio
+4. Jalankan Aplikasi
+Bisa dijalankan pada Emulator atau Perangkat Fisik
 
-### 3. Tunggu Gradle Sync
+Minimum SDK: 24 (Android 7.0)
 
-### 4. Jalankan Aplikasi
+---
 
--   Minimum SDK 24
+### 📌 Fitur Tambahan yang Bisa Kamu Kembangkan
+
+Jika ingin meningkatkan proyek ini menjadi aplikasi portofolio profesional, kamu bisa menambahkan fitur berikut:
+
+-   🔐 Firebase Authentication — Login & register nyata
+-   🗂️ Local Database (Room) — Penyimpanan habit secara offline
+-   ⏰ Habit Reminders (AlarmManager) — Pengingat otomatis
+-   📄 Export Progress ke PDF — Rekap progres habit
+-   🟣 Dynamic Island–style Progress Indicator — Notifikasi progres yang interaktif
 
 ------------------------------------------------------------------------
 
